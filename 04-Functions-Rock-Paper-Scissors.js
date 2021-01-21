@@ -22,7 +22,7 @@ const getComputerChoice =() => {
     return 'rock';
   case 1:
     return 'paper';
-  case 3:
+  case 2:
     return 'scissors';
   }
 }
