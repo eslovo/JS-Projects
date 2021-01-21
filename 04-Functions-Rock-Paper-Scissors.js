@@ -11,10 +11,10 @@ const getUserChoice =userInput => {
 };
 
 // computer choice
-const getComputerChoice =() =>{
+const getComputerChoice =() => {
   
   // random number
-  let randNumber = Math.floor(Math.random() * 3);
+  let randomNumber = Math.floor(Math.random() * 3);
 
   // switch between options
   switch (randomNumber) {
@@ -26,6 +26,11 @@ const getComputerChoice =() =>{
     return 'scissors';
   }
 }
+
+// DEBUG
+console.log(getComputerChoice());
+
+
 
 // define a winner
 function determineWinner (){
